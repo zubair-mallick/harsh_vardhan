@@ -1,5 +1,3 @@
-'use client';
-
 export const metadata = {
   title: 'Contact Us - Medhasya Academy',
   description: 'Get in touch with us for admissions or inquiries.',
