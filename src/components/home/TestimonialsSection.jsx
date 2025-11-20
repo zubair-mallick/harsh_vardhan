@@ -11,7 +11,7 @@ export default function TestimonialsSection() {
             <div>
               <p className="text-brand-blue font-semibold uppercase tracking-wider mb-3">Testimonial</p>
               <h2 className="text-4xl md:text-5xl font-bold text-brand-dark mb-6">
-                What Say Our Students
+                What Our Students Say
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
                 We are proud of our students' success. See what they have to say about their journey with Medhasya.

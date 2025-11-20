@@ -30,7 +30,7 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-semibold text-brand-blue mb-4">Our Approach</h2>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Our strength lies in our mentors. Every faculty member brings <strong>over 5+ years of experience</strong>, ensuring subject mastery and a deep understanding of student psychology.
+                Our strength lies in our mentors. Every faculty member brings <strong>over 5 years of experience</strong>, ensuring subject mastery and a deep understanding of student psychology.
                 <br /><br />
                 We champion <strong>personalized one-to-one mentoring</strong>, allowing us to identify individual learning gaps and help even the weakest learners build confidence. Our structured, results-driven curriculum ensures students are perfectly prepared to score strongly in board exams.
               </p>
