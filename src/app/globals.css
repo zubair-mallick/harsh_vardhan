@@ -8,10 +8,6 @@
   --color-brand-red: #EF4444;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body { 
   font-family: 'Inter', sans-serif; 
   background-color: #ffffff;

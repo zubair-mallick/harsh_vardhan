@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import ScrollToTop from "@/components/ScrollToTop";
 
 export const metadata: Metadata = {
   title: "Medhasya Academy - Home",
@@ -19,7 +18,6 @@ export default function RootLayout({
       <body className="bg-white text-gray-900">
         <a id="top"></a>
         <Header />
-        <ScrollToTop />
         {children}
         <Footer />
       </body>

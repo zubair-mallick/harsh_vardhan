@@ -149,7 +149,16 @@ export default function Footer() {
       </div>
 
       {/* Scroll to Top Button */}
-      <a href="#top" className="fixed bottom-6 right-6 bg-brand-blue text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:bg-blue-700 transition-colors z-50">
+      <a
+        href="#top"
+        onClick={(e) => {
+          e.preventDefault();
+          if (typeof window !== 'undefined') {
+            window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+          }
+        }}
+        className="fixed bottom-6 right-6 bg-brand-blue text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:bg-blue-700 transition-colors z-50"
+      >
         <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
         </svg>
