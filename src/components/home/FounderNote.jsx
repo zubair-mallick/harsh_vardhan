@@ -22,7 +22,7 @@ export default function FounderNote() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div className="flex justify-center md:justify-end">
                 <Image
-                  src="https://placehold.co/400x400/eeeeee/333333?text=Mrs.+Seetha"
+                  src="/Founder.jpg"
                   alt="Mrs. Seetha, Founder"
                   width={320}
                   height={320}

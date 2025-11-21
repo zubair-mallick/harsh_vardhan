@@ -64,18 +64,20 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Founder's Note */}
+      {/* Leadership Team */}
       <section className="bg-gray-50 pt-20 pb-20 md:pb-28">
         <div className="container mx-auto px-6 max-w-5xl">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">Meet Our Founder</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-center">
-            <div className="flex justify-center md:col-span-1">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">Our Leadership</h2>
+          
+          {/* Founder */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-center mb-20">
+            <div className="flex justify-center items-center md:col-span-1">
               <Image
-                src="https://placehold.co/400x400/eeeeee/333333?text=Mrs.+Seetha"
+                src="/Founder.jpg"
                 alt="Mrs. Seetha, Founder"
-                width={320}
-                height={320}
-                className="rounded-full object-cover shadow-xl"
+                width={280}
+                height={280}
+                className="rounded-full object-cover object-[70%_10%] shadow-xl w-[280px] h-[280px] mx-auto"
               />
             </div>
             <div className="text-center md:text-left md:col-span-2">
@@ -83,10 +85,31 @@ export default function AboutPage() {
                 "In every learner, we see a story waiting to grow."
               </blockquote>
               <h3 className="text-2xl font-bold text-gray-900 mb-2">Mrs. Seetha</h3>
+              <p className="text-sm text-brand-blue font-semibold uppercase mb-3">Founder & Chief Mentor</p>
               <p className="text-lg text-gray-700 leading-relaxed">
                 With <strong>over 20 years in schools as a teacher and administrator</strong>, education has never been just a profession for Mrs. Seetha — it has been a calling. Guiding students, watching them grow, and helping them discover their strengths has shaped her life.
                 <br /><br />
                 This passion led to the birth of Medhasya Academy, a reflection of her belief that every child deserves <strong>clarity, confidence, and the joy of truly understanding</strong> what they learn.
+              </p>
+            </div>
+          </div>
+
+          {/* Trustee */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-center">
+            <div className="flex justify-center items-center md:col-span-1">
+              <Image
+                src="/Trustee.jpg"
+                alt="Trustee"
+                width={280}
+                height={280}
+                className="rounded-full object-cover object-[50%_20%] shadow-xl w-[280px] h-[280px] mx-auto"
+              />
+            </div>
+            <div className="text-center md:text-left md:col-span-2">
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">[Trustee Name]</h3>
+              <p className="text-sm text-brand-blue font-semibold uppercase mb-3">Trustee & Advisor</p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                [Trustee Name] brings invaluable guidance and strategic vision to Medhasya Academy. With a deep commitment to educational excellence and community development, they ensure that our institution continues to uphold the highest standards of learning and student care.
               </p>
             </div>
           </div>

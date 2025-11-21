@@ -136,7 +136,7 @@ export default function CoursesPage() {
               Admissions for the <strong>2026-27 academic year</strong> begin in <strong>January 2026</strong>.
             </p>
             <Link href="/contact" className="bg-brand-dark text-white px-8 py-3 rounded-lg font-semibold text-lg hover:bg-gray-800 transition-colors inline-block">
-              Enquire Now
+              Inquire Now
             </Link>
           </div>
         </div>

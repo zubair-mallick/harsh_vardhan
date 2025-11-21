@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 
 export default function Header() {
@@ -20,8 +21,17 @@ export default function Header() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
           </button>
-          <Link href="/" className="text-2xl font-bold text-brand-dark">
-            Medhasya Academy
+          <Link href="/" className="flex items-center space-x-3">
+            <Image
+              src="/logo.png"
+              alt="Medhasya Academy logo"
+              width={48}
+              height={48}
+              className="rounded-full"
+            />
+            <span className="text-2xl font-bold text-brand-dark hidden sm:inline">
+              Medhasya Academy
+            </span>
           </Link>
         </div>
 
@@ -46,7 +56,7 @@ export default function Header() {
             href="/contact"
             className="bg-brand-blue text-white px-5 py-2.5 rounded-lg font-medium hover:bg-blue-700 transition-colors"
           >
-            Enquire Now
+            Inquire Now
           </Link>
         </div>
 
@@ -56,7 +66,7 @@ export default function Header() {
             href="/contact"
             className="bg-brand-blue text-white px-3 py-2 rounded-lg font-medium text-xs whitespace-nowrap"
           >
-            Enquire Now
+            Inquire Now
           </Link>
         </div>
       </nav>

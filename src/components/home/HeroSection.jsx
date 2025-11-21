@@ -24,10 +24,10 @@ export default function HeroSection() {
       {/* Marquee Banner */}
       <div className="bg-brand-gold text-brand-dark py-2.5 overflow-hidden">
         <div className="marquee-content flex space-x-12">
-          <span className="flex-shrink-0 font-medium">Admissions for the 2026-27 academic year open in January 2026. Enquire Now!</span>
-          <span className="flex-shrink-0 font-medium">Admissions for the 2026-27 academic year open in January 2026. Enquire Now!</span>
-          <span className="flex-shrink-0 font-medium">Admissions for the 2026-27 academic year open in January 2026. Enquire Now!</span>
-          <span className="flex-shrink-0 font-medium">Admissions for the 2026-27 academic year open in January 2026. Enquire Now!</span>
+          <span className="flex-shrink-0 font-medium">Admissions for the 2026-27 academic year open in January 2026. Inquire Now!</span>
+          <span className="flex-shrink-0 font-medium">Admissions for the 2026-27 academic year open in January 2026. Inquire Now!</span>
+          <span className="flex-shrink-0 font-medium">Admissions for the 2026-27 academic year open in January 2026. Inquire Now!</span>
+          <span className="flex-shrink-0 font-medium">Admissions for the 2026-27 academic year open in January 2026. Inquire Now!</span>
         </div>
       </div>
     </>
