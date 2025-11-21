@@ -106,10 +106,10 @@ export default function AboutPage() {
               />
             </div>
             <div className="text-center md:text-left md:col-span-2">
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">[Trustee Name]</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Mr Muralidhara R</h3>
               <p className="text-sm text-brand-blue font-semibold uppercase mb-3">Trustee & Advisor</p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                [Trustee Name] brings invaluable guidance and strategic vision to Medhasya Academy. With a deep commitment to educational excellence and community development, they ensure that our institution continues to uphold the highest standards of learning and student care.
+                Mr Muralidhara R brings invaluable guidance and strategic vision to Medhasya Academy. With a deep commitment to educational excellence and community development, they ensure that our institution continues to uphold the highest standards of learning and student care.
               </p>
             </div>
           </div>

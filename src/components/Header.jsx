@@ -56,7 +56,7 @@ export default function Header() {
             href="/contact"
             className="bg-brand-blue text-white px-5 py-2.5 rounded-lg font-medium hover:bg-blue-700 transition-colors"
           >
-            Inquire Now
+            Enquire Now
           </Link>
         </div>
 
@@ -66,7 +66,7 @@ export default function Header() {
             href="/contact"
             className="bg-brand-blue text-white px-3 py-2 rounded-lg font-medium text-xs whitespace-nowrap"
           >
-            Inquire Now
+            Enquire Now
           </Link>
         </div>
       </nav>
