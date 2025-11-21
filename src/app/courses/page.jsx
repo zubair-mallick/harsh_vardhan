@@ -8,6 +8,7 @@ export const metadata = {
 export default function CoursesPage() {
   return (
     <main>
+      {/* Page Header */}
       <section className="bg-brand-dark text-white py-16">
         <div className="container mx-auto px-6 text-center">
           <h1 className="text-4xl md:text-5xl font-bold">Our Programs</h1>
@@ -17,6 +18,7 @@ export default function CoursesPage() {
         </div>
       </section>
 
+      {/* Foundation Program Section */}
       <section className="py-20 md:py-28">
         <div className="container mx-auto px-6 max-w-6xl">
           <div>
@@ -24,44 +26,94 @@ export default function CoursesPage() {
             <p className="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-16">
               Building a rock-solid base in core subjects to ensure future academic success and confidence.
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-              <div className="flex">
-                <div className="flex-shrink-0 mr-5">
-                  <div className="w-16 h-16 rounded-full bg-brand-blue/10 text-brand-blue flex items-center justify-center">
-                    <svg className="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048l-4.247 4.247a.75.75 0 001.06 1.06l4.247-4.247a3 3 0 014.243 0l4.242 4.242a.75.75 0 001.06-1.06l-4.242-4.242z" />
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {/* Class 8 */}
+              <div className="bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-2xl transition-all duration-300">
+                <div className="bg-gradient-to-r from-blue-500 to-indigo-600 p-6 text-center">
+                  <div className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center mx-auto mb-3">
+                    <svg className="w-8 h-8 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
                     </svg>
                   </div>
+                  <h3 className="text-2xl font-bold text-white">Class 8</h3>
                 </div>
-                <div>
-                  <h3 className="text-2xl font-semibold mb-3">Class 8</h3>
-                  <p className="text-gray-600 leading-relaxed">Fostering curiosity and confidence in core subjects like Math and Science from day one.</p>
+                <div className="p-6">
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">CBSE</span>
+                    <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">ICSE</span>
+                  </div>
+                  <p className="text-gray-600 leading-relaxed mb-4">
+                    Fostering curiosity and confidence in core subjects like Math and Science from day one.
+                  </p>
+                  <div className="space-y-2 mb-4">
+                    <p className="text-sm font-semibold text-gray-700">Key Subjects:</p>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs">Mathematics</span>
+                      <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs">Science</span>
+                      <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs">English</span>
+                      <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs">Social Studies</span>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className="flex">
-                <div className="flex-shrink-0 mr-5">
-                  <div className="w-16 h-16 rounded-full bg-brand-blue/10 text-brand-blue flex items-center justify-center">
-                    <svg className="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+
+              {/* Class 9 */}
+              <div className="bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-2xl transition-all duration-300">
+                <div className="bg-gradient-to-r from-blue-500 to-indigo-600 p-6 text-center">
+                  <div className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center mx-auto mb-3">
+                    <svg className="w-8 h-8 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" />
                     </svg>
                   </div>
+                  <h3 className="text-2xl font-bold text-white">Class 9</h3>
                 </div>
-                <div>
-                  <h3 className="text-2xl font-semibold mb-3">Class 9</h3>
-                  <p className="text-gray-600 leading-relaxed">Deepening conceptual understanding in all subjects to prepare for board-level challenges.</p>
-                </div>
-              </div>
-              <div className="flex">
-                <div className="flex-shrink-0 mr-5">
-                  <div className="w-16 h-16 rounded-full bg-brand-blue/10 text-brand-blue flex items-center justify-center">
-                    <svg className="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.436 60.436 0 00-5.914 7.55A1.5 1.5 0 002.25 20h19.5a1.5 1.5 0 001.414-2.303 60.437 60.437 0 00-5.914-7.55M12 3v12.75m0-12.75c.621 0 1.22.067 1.804.19l-1.804-1.9M12 3c-.621 0-1.22.067-1.804.19l1.804-1.9" />
-                    </svg>
+                <div className="p-6">
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">CBSE</span>
+                    <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">ICSE</span>
+                  </div>
+                  <p className="text-gray-600 leading-relaxed mb-4">
+                    Deepening conceptual understanding in all subjects to prepare for board-level challenges.
+                  </p>
+                  <div className="space-y-2 mb-4">
+                    <p className="text-sm font-semibold text-gray-700">Key Subjects:</p>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs">Mathematics</span>
+                      <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs">Physics</span>
+                      <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs">Chemistry</span>
+                      <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs">Biology</span>
+                    </div>
                   </div>
                 </div>
-                <div>
-                  <h3 className="text-2xl font-semibold mb-3">Class 10 (Boards)</h3>
-                  <p className="text-gray-600 leading-relaxed">Comprehensive syllabus coverage, rigorous practice, and strategic mentoring to score strongly.</p>
+              </div>
+
+              {/* Class 10 */}
+              <div className="bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-2xl transition-all duration-300">
+                <div className="bg-gradient-to-r from-blue-500 to-indigo-600 p-6 text-center">
+                  <div className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center mx-auto mb-3">
+                    <svg className="w-8 h-8 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 01-.982-3.172M9.497 14.25a7.454 7.454 0 00.981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 007.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 002.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 012.916.52 6.003 6.003 0 01-5.395 4.972m0 0a6.726 6.726 0 01-2.749 1.35m0 0a6.772 6.772 0 01-3.044 0" />
+                    </svg>
+                  </div>
+                  <h3 className="text-2xl font-bold text-white">Class 10 (Boards)</h3>
+                </div>
+                <div className="p-6">
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">CBSE</span>
+                    <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">ICSE</span>
+                    <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">State Board</span>
+                  </div>
+                  <p className="text-gray-600 leading-relaxed mb-4">
+                    Comprehensive syllabus coverage, rigorous practice, and strategic mentoring to score strongly.
+                  </p>
+                  <div className="space-y-2 mb-4">
+                    <p className="text-sm font-semibold text-gray-700">Key Subjects:</p>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs">Mathematics</span>
+                      <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs">Science</span>
+                      <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs">Social Science</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -69,36 +121,142 @@ export default function CoursesPage() {
 
           <hr className="my-16 md:my-24 border-gray-200" />
 
+          {/* Senior Secondary Section */}
           <div>
             <h2 className="text-3xl font-bold text-center mb-4 text-brand-dark">Senior Secondary (Classes 11-12)</h2>
             <p className="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-16">
               Mastering advanced concepts for Science and Commerce streams, building a competitive edge for future success.
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-              <div className="flex">
-                <div className="flex-shrink-0 mr-5">
-                  <div className="w-16 h-16 rounded-full bg-brand-blue/10 text-brand-blue flex items-center justify-center">
-                    <svg className="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M14.25 9.75L16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z" />
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {/* Class 11 Science */}
+              <div className="bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-2xl transition-all duration-300">
+                <div className="bg-gradient-to-r from-blue-500 to-indigo-600 p-6 text-center">
+                  <div className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center mx-auto mb-3">
+                    <svg className="w-8 h-8 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
                     </svg>
                   </div>
+                  <h3 className="text-2xl font-bold text-white">Class 11 Science</h3>
                 </div>
-                <div>
-                  <h3 className="text-2xl font-semibold mb-3">Science Stream (11 & 12)</h3>
-                  <p className="text-gray-600 leading-relaxed">In-depth coaching for Physics, Chemistry, Math & Biology (PCM/PCB) for peak board performance.</p>
+                <div className="p-6">
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">CBSE</span>
+                    <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">1st PU (State Board)</span>
+                  </div>
+                  <p className="text-gray-600 leading-relaxed mb-4">
+                    In-depth coaching for Physics, Chemistry, Math & Biology (PCM/PCB) for Class 11 board performance and JEE/NEET foundation.
+                  </p>
+                  <div className="space-y-2 mb-4">
+                    <p className="text-sm font-semibold text-gray-700">Key Subjects:</p>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs">Physics</span>
+                      <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs">Chemistry</span>
+                      <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs">Mathematics</span>
+                      <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs">Biology</span>
+                    </div>
+                  </div>
+                  <ul className="space-y-2 text-sm text-gray-600">
+                    <li className="flex items-start">
+                      <span className="text-blue-600 mr-2">✓</span>
+                      <span>JEE/NEET foundation building</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-blue-600 mr-2">✓</span>
+                      <span>Advanced problem-solving techniques</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-blue-600 mr-2">✓</span>
+                      <span>Board exam mastery</span>
+                    </li>
+                  </ul>
                 </div>
               </div>
-              <div className="flex">
-                <div className="flex-shrink-0 mr-5">
-                  <div className="w-16 h-16 rounded-full bg-brand-blue/10 text-brand-blue flex items-center justify-center">
-                    <svg className="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3v16.5a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V3.75m-16.5 0v16.5h16.5V3.75m-16.5 0h16.5M9 11.25l3 3m0 0l3-3m-3 3V7.5" />
+
+              {/* Class 12 Science */}
+              <div className="bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-2xl transition-all duration-300">
+                <div className="bg-gradient-to-r from-blue-500 to-indigo-600 p-6 text-center">
+                  <div className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center mx-auto mb-3">
+                    <svg className="w-8 h-8 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
                     </svg>
                   </div>
+                  <h3 className="text-2xl font-bold text-white">Class 12 Science</h3>
                 </div>
-                <div>
-                  <h3 className="text-2xl font-semibold mb-3">Commerce Stream (11 & 12)</h3>
-                  <p className="text-gray-600 leading-relaxed">Expert guidance in Accountancy, Economics, and Business Studies to build strong fundamentals.</p>
+                <div className="p-6">
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">CBSE</span>
+                    <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">2nd PU (State Board)</span>
+                  </div>
+                  <p className="text-gray-600 leading-relaxed mb-4">
+                    Advanced coaching for Physics, Chemistry, Math & Biology (PCM/PCB) for peak Class 12 board performance and competitive exams.
+                  </p>
+                  <div className="space-y-2 mb-4">
+                    <p className="text-sm font-semibold text-gray-700">Key Subjects:</p>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs">Physics</span>
+                      <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs">Chemistry</span>
+                      <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs">Mathematics</span>
+                      <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs">Biology</span>
+                    </div>
+                  </div>
+                  <ul className="space-y-2 text-sm text-gray-600">
+                    <li className="flex items-start">
+                      <span className="text-blue-600 mr-2">✓</span>
+                      <span>JEE/NEET advanced preparation</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-blue-600 mr-2">✓</span>
+                      <span>Strategic exam techniques</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-blue-600 mr-2">✓</span>
+                      <span>Board exam mastery</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* Commerce Stream */}
+              <div className="bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-2xl transition-all duration-300">
+                <div className="bg-gradient-to-r from-blue-500 to-indigo-600 p-6 text-center">
+                  <div className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center mx-auto mb-3">
+                    <svg className="w-8 h-8 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" />
+                    </svg>
+                  </div>
+                  <h3 className="text-2xl font-bold text-white">Commerce Stream (11 & 12)</h3>
+                </div>
+                <div className="p-6">
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">CBSE</span>
+                    <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">State Board</span>
+                  </div>
+                  <p className="text-gray-600 leading-relaxed mb-4">
+                    Expert guidance in Accountancy, Economics, and Business Studies to build strong fundamentals, with special emphasis on Basic Mathematics for numerical confidence.
+                  </p>
+                  <div className="space-y-2 mb-4">
+                    <p className="text-sm font-semibold text-gray-700">Key Subjects:</p>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs">Accountancy</span>
+                      <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs">Economics</span>
+                      <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs">Business Studies</span>
+                      <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs font-semibold">Basic Mathematics</span>
+                    </div>
+                  </div>
+                  <ul className="space-y-2 text-sm text-gray-600">
+                    <li className="flex items-start">
+                      <span className="text-blue-600 mr-2">✓</span>
+                      <span>Commerce-specific math focus</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-blue-600 mr-2">✓</span>
+                      <span>Practical applications</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-blue-600 mr-2">✓</span>
+                      <span>Building numerical confidence</span>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -106,6 +264,7 @@ export default function CoursesPage() {
 
           <hr className="my-16 md:my-24 border-gray-200" />
 
+          {/* Specialized Mentoring */}
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-4 text-brand-dark">Specialized Mentoring</h2>
             <p className="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-16">
@@ -128,6 +287,7 @@ export default function CoursesPage() {
         </div>
       </section>
 
+      {/* Admissions Section */}
       <section className="pb-20 md:pb-28">
         <div className="container mx-auto px-6 max-w-4xl">
           <div className="bg-brand-gold text-brand-dark py-12 px-6 rounded-lg text-center shadow-lg">
