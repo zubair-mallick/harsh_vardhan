@@ -106,6 +106,9 @@ export default function AboutPage() {
               />
             </div>
             <div className="text-center md:text-left md:col-span-2">
+              <blockquote className="text-2xl md:text-3xl font-light text-gray-800 italic border-l-4 border-brand-blue pl-6 mb-6">
+                "EDUCATION has an important role to play in making INDIA self-reliant"
+              </blockquote>
               <h3 className="text-2xl font-bold text-gray-900 mb-2">Mr Muralidhara R</h3>
               <p className="text-sm text-brand-blue font-semibold uppercase mb-3">Trustee & Advisor</p>
               <p className="text-lg text-gray-700 leading-relaxed">
