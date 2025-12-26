@@ -6,9 +6,6 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Medhasya Academy - Home",
   description: "Meaningful, interactive, and growth-driven learning for classes 8-12.",
-  icons: {
-    icon: "/logo.png",
-  },
 };
 
 export default function RootLayout({
@@ -18,6 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/logo.png" type="image/png" />
+      </head>
       <body className="bg-white text-gray-900">
         <a id="top"></a>
         <Header />
