@@ -1,23 +1,42 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function HeroSection() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-brand-dark text-white relative overflow-hidden">
-        <div className="container mx-auto px-6 py-24 md:py-32 text-center z-10 relative">
-          <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
-            Where Education Inspires, Skills Grow, and Success Begins.
-          </h1>
-          <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-10">
-            Meaningful, interactive, and growth-driven learning for classes 8-12.
-          </p>
-          <Link
-            href="/courses"
-            className="bg-brand-blue text-white px-8 py-3 rounded-lg font-semibold text-lg hover:bg-blue-700 transition-colors inline-block"
-          >
-            Explore Courses
-          </Link>
+      <section className="bg-blue-900 text-white relative overflow-hidden">
+        <div className="container mx-auto px-6 py-16 md:py-24 z-10 relative">
+          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+            {/* Left - Logo */}
+            <div className="flex-shrink-0">
+              <Image
+                src="/logo-hero.png"
+                alt="Medhasya Academy Logo"
+                width={400}
+                height={400}
+                className="w-48 h-48 md:w-72 md:h-72 object-contain"
+              />
+            </div>
+            
+            {/* Right - Text */}
+            <div className="text-center md:text-left">
+              <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-6">
+                <span className="text-yellow-400">Where Education Inspires, </span>
+                <span className="text-white">Skills Grow, </span>
+                <span className="text-cyan-400">and Success Begins.</span>
+              </h1>
+              <p className="text-lg md:text-xl text-gray-300 mb-8">
+                Meaningful, interactive, and growth-driven learning for classes 8-12.
+              </p>
+              <Link
+                href="/courses"
+                className="bg-brand-blue text-white px-8 py-3 rounded-lg font-semibold text-lg hover:bg-blue-700 transition-colors inline-block"
+              >
+                Explore Courses
+              </Link>
+            </div>
+          </div>
         </div>
       </section>
 

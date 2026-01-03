@@ -73,14 +73,14 @@ export default function FacultyPage() {
             <div className="flex flex-col md:flex-row items-center gap-10">
               <div className="flex-shrink-0">
                 <Image
-                  src="https://placehold.co/200x200/2563EB/FFFFFF?text=MK"
+                  src="/faculty-manikantha.jpeg"
                   alt="Mr. Manikantha"
-                  width={160}
-                  height={160}
-                  className="rounded-full object-cover shadow-lg"
+                  width={200}
+                  height={200}
+                  className="rounded-full object-cover shadow-lg w-48 h-48 bg-white"
                 />
               </div>
-              <div>
+              <div className="text-center md:text-left">
                 <h3 className="text-2xl font-bold text-gray-900">Mr. Manikantha</h3>
                 <p className="text-lg font-semibold text-brand-blue mb-3">Senior Mathematics Faculty</p>
                 <p className="text-gray-700 leading-relaxed">
@@ -92,14 +92,14 @@ export default function FacultyPage() {
             <div className="flex flex-col md:flex-row items-center gap-10">
               <div className="flex-shrink-0">
                 <Image
-                  src="https://placehold.co/200x200/2563EB/FFFFFF?text=MS"
+                  src="/faculty-salahuddin.png"
                   alt="Mohammed Sulthan Salahuddin Ayyubee"
-                  width={160}
-                  height={160}
-                  className="rounded-full object-cover shadow-lg"
+                  width={200}
+                  height={200}
+                  className="rounded-full object-cover shadow-lg w-48 h-48 bg-white"
                 />
               </div>
-              <div>
+              <div className="text-center md:text-left">
                 <h3 className="text-2xl font-bold text-gray-900">Mohammed Sulthan Salahuddin Ayyubee</h3>
                 <p className="text-lg font-semibold text-brand-blue mb-3">Mathematics & Physics Expert</p>
                 <p className="text-gray-700 leading-relaxed">
@@ -111,14 +111,14 @@ export default function FacultyPage() {
             <div className="flex flex-col md:flex-row items-center gap-10">
               <div className="flex-shrink-0">
                 <Image
-                  src="https://placehold.co/200x200/2563EB/FFFFFF?text=JE"
+                  src="/faculty-jordan.jpeg"
                   alt="Jordan Emmanuel"
-                  width={160}
-                  height={160}
-                  className="rounded-full object-cover shadow-lg"
+                  width={200}
+                  height={200}
+                  className="rounded-full object-cover shadow-lg w-48 h-48 bg-white"
                 />
               </div>
-              <div>
+              <div className="text-center md:text-left">
                 <h3 className="text-2xl font-bold text-gray-900">Jordan Emmanuel</h3>
                 <p className="text-lg font-semibold text-brand-blue mb-3">Science Faculty</p>
                 <p className="text-gray-700 leading-relaxed">
