@@ -24,9 +24,9 @@ body {
 }
 
 .marquee-content {
-  width: 200%; 
-  animation: marquee 30s linear infinite;
   display: flex;
+  gap: 3rem;
+  animation: marquee 20s linear infinite;
 }
 
 .marquee-content:hover {
@@ -34,7 +34,7 @@ body {
 }
 
 .marquee-content span {
-  width: 25%;
+  flex-shrink: 0;
 }
 
 /* Testimonial Slider Styles */
