@@ -4,8 +4,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Medhasya Academy - Home",
-  description: "Meaningful, interactive, and growth-driven learning for classes 8-12.",
+  title: "Medhasya Academy - Where Education Inspires, Skills Grow, and Success Begins",
+  description: "Expert coaching for classes 8-12 in CBSE, ICSE & State boards. Personalized one-to-one mentoring in Mathematics, Science & Commerce. Located in Ramamurthy Nagar, Bengaluru. Tuition hours: 4:30 PM - 8:30 PM (Mon-Sat).",
 };
 
 export default function RootLayout({

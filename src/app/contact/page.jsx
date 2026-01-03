@@ -95,17 +95,19 @@ export default function ContactPage() {
                     </svg>
                     <div>
                       <h3 className="text-lg font-semibold text-gray-800">Address</h3>
-                      <p className="text-gray-600">[Your Address], Bengaluru, KA</p>
+                      <p className="text-gray-600">#71/72, M.M. Complex, 2nd cross, Chandravadana Layout, Kalkere Main road, Ramamurthy Nagar, Bengaluru</p>
+                      <p className="text-sm text-gray-500 mt-1">Landmark: Above Amma's clinic (2nd floor)</p>
                     </div>
                   </div>
                   
                   <div className="flex items-start">
                     <svg className="w-6 h-6 mr-4 mt-1 text-brand-blue flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-2.822-.14-5.387-1.38-7.918-3.918s-3.778-5.096-3.918-7.918l1.293-.97c.362-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                     <div>
-                      <h3 className="text-lg font-semibold text-gray-800">Phone</h3>
-                      <p className="text-gray-600">+91 98765 43210</p>
+                      <h3 className="text-lg font-semibold text-gray-800">Office Hours</h3>
+                      <p className="text-gray-600">Mon - Sat: 10:00 AM - 08:00 PM</p>
+                      <p className="text-sm text-gray-500 mt-1">Tuition: 4:30 PM - 8:30 PM</p>
                     </div>
                   </div>
                   
@@ -115,7 +117,7 @@ export default function ContactPage() {
                     </svg>
                     <div>
                       <h3 className="text-lg font-semibold text-gray-800">Email</h3>
-                      <p className="text-gray-600">info@medhasya.com</p>
+                      <p className="text-gray-600">contact@medhasyaacademy.com</p>
                     </div>
                   </div>
                 </div>

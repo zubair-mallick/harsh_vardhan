@@ -73,18 +73,18 @@ export default function FacultyPage() {
             <div className="flex flex-col md:flex-row items-center gap-10">
               <div className="flex-shrink-0">
                 <Image
-                  src="https://placehold.co/200x200/eeeeee/333333?text=Mentor"
-                  alt="Faculty Member"
+                  src="https://placehold.co/200x200/2563EB/FFFFFF?text=MK"
+                  alt="Mr. Manikantha"
                   width={160}
                   height={160}
                   className="rounded-full object-cover shadow-lg"
                 />
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-gray-900">[Senior Faculty Name]</h3>
-                <p className="text-lg font-semibold text-brand-blue mb-3">Physics & Math Specialist</p>
+                <h3 className="text-2xl font-bold text-gray-900">Mr. Manikantha</h3>
+                <p className="text-lg font-semibold text-brand-blue mb-3">Senior Mathematics Faculty</p>
                 <p className="text-gray-700 leading-relaxed">
-                  With 12+ years of experience, [Name] has a gift for making complex physics and calculus concepts simple and intuitive. Students appreciate his patient and logical teaching style.
+                  With over 10 years of experience in handling 10th grade Mathematics across CBSE, State and ICSE Boards, Mr. Manikantha's method of teaching Maths is to primarily evoke interest among students about the subject and then to correct their basics. His core strength as a teacher lies in training students for a Board oriented preparation.
                 </p>
               </div>
             </div>
@@ -92,18 +92,18 @@ export default function FacultyPage() {
             <div className="flex flex-col md:flex-row items-center gap-10">
               <div className="flex-shrink-0">
                 <Image
-                  src="https://placehold.co/200x200/eeeeee/333333?text=Mentor"
-                  alt="Faculty Member"
+                  src="https://placehold.co/200x200/2563EB/FFFFFF?text=MS"
+                  alt="Mohammed Sulthan Salahuddin Ayyubee"
                   width={160}
                   height={160}
                   className="rounded-full object-cover shadow-lg"
                 />
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-gray-900">[Senior Faculty Name]</h3>
-                <p className="text-lg font-semibold text-brand-blue mb-3">Chemistry & Biology</p>
+                <h3 className="text-2xl font-bold text-gray-900">Mohammed Sulthan Salahuddin Ayyubee</h3>
+                <p className="text-lg font-semibold text-brand-blue mb-3">Mathematics & Physics Expert</p>
                 <p className="text-gray-700 leading-relaxed">
-                  An M.Sc. in Chemistry, [Name] is passionate about building a strong foundation in science. Her interactive classes and practical examples help students master difficult topics.
+                  A passionate tutor with 7 years of experience in teaching and tutoring students of class 9th and 10th for all the boards. His expertise in Mathematics and Physics helps students build strong conceptual foundations.
                 </p>
               </div>
             </div>
@@ -111,18 +111,18 @@ export default function FacultyPage() {
             <div className="flex flex-col md:flex-row items-center gap-10">
               <div className="flex-shrink-0">
                 <Image
-                  src="https://placehold.co/200x200/eeeeee/333333?text=Mentor"
-                  alt="Faculty Member"
+                  src="https://placehold.co/200x200/2563EB/FFFFFF?text=JE"
+                  alt="Jordan Emmanuel"
                   width={160}
                   height={160}
                   className="rounded-full object-cover shadow-lg"
                 />
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-gray-900">[Faculty Name]</h3>
-                <p className="text-lg font-semibold text-brand-blue mb-3">Commerce & Economics</p>
+                <h3 className="text-2xl font-bold text-gray-900">Jordan Emmanuel</h3>
+                <p className="text-lg font-semibold text-brand-blue mb-3">Science Faculty</p>
                 <p className="text-gray-700 leading-relaxed">
-                  A [Degree, e.g., M.Com] with 7+ years in teaching, [Name] is dedicated to building strong business and accounting fundamentals for our commerce students.
+                  A Computer Science Engineer by qualification and a dedicated multi-subject educator. He has taught Class 8 Mathematics, Science, and Social Science, Class 9 Social Science, and Class 10 Physics. Known for his clear explanations and student-friendly approach, Mr. Jordan focuses on building strong fundamentals and making complex topics simple and understandable.
                 </p>
               </div>
             </div>
