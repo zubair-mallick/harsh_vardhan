@@ -58,7 +58,7 @@ export default function FacultyPage() {
               <h3 className="text-3xl font-bold text-gray-900 mb-2">Mrs. Seetha</h3>
               <p className="text-xl font-semibold text-brand-blue mb-4">Founder & Chief Mentor</p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                With over 20 years in education, Mrs. Seetha's vision is the driving force behind Medhasya. She ensures that every student receives the personal attention and guidance needed to build clarity, confidence, and character.
+                With over 20 years in education, Mrs. Seetha's vision is the driving force behind Medhasya. She ensures that every student receives the personal attention and guidance needed to build [...]
               </p>
             </div>
           </div>
@@ -84,11 +84,12 @@ export default function FacultyPage() {
                 <h3 className="text-2xl font-bold text-gray-900">Mr. Manikantha</h3>
                 <p className="text-lg font-semibold text-brand-blue mb-3">Senior Mathematics Faculty</p>
                 <p className="text-gray-700 leading-relaxed">
-                  With over 10 years of experience in handling 10th grade Mathematics across CBSE, State and ICSE Boards, Mr. Manikantha's method of teaching Maths is to primarily evoke interest among students about the subject and then to correct their basics. His core strength as a teacher lies in training students for a Board oriented preparation.
+                  With over 10 years of experience in handling 10th grade Mathematics across CBSE, State and ICSE Boards, Mr. Manikantha's method of teaching Maths is to primarily evoke interest among[...]
                 </p>
               </div>
             </div>
             
+            {/*
             <div className="flex flex-col md:flex-row items-center gap-10">
               <div className="flex-shrink-0">
                 <Image
@@ -103,11 +104,12 @@ export default function FacultyPage() {
                 <h3 className="text-2xl font-bold text-gray-900">Mohammed Sulthan Salahuddin Ayyubee</h3>
                 <p className="text-lg font-semibold text-brand-blue mb-3">Mathematics & Physics Expert</p>
                 <p className="text-gray-700 leading-relaxed">
-                  A passionate tutor with 7 years of experience in teaching and tutoring students of class 9th and 10th for all the boards. His expertise in Mathematics and Physics helps students build strong conceptual foundations.
+                  A passionate tutor with 7 years of experience in teaching and tutoring students of class 9th and 10th for all the boards. His expertise in Mathematics and Physics helps students buil[...]
                 </p>
               </div>
             </div>
-            
+            */}
+
             <div className="flex flex-col md:flex-row items-center gap-10">
               <div className="flex-shrink-0">
                 <Image
@@ -122,7 +124,7 @@ export default function FacultyPage() {
                 <h3 className="text-2xl font-bold text-gray-900">Jordan Emmanuel</h3>
                 <p className="text-lg font-semibold text-brand-blue mb-3">Science Faculty</p>
                 <p className="text-gray-700 leading-relaxed">
-                  A Computer Science Engineer by qualification and a dedicated multi-subject educator. He has taught Class 8 Mathematics, Science, and Social Science, Class 9 Social Science, and Class 10 Physics. Known for his clear explanations and student-friendly approach, Mr. Jordan focuses on building strong fundamentals and making complex topics simple and understandable.
+                  A Computer Science Engineer by qualification and a dedicated multi-subject educator. He has taught Class 8 Mathematics, Science, and Social Science, Class 9 Social Science, and Class[...]
                 </p>
               </div>
             </div>
