@@ -97,8 +97,7 @@ export default function FacultyPage() {
                   alt="Mohammed Sulthan Salahuddin Ayyubee"
                   width={200}
                   height={200}
-                  className="rounded-full object-cover shadow-lg w-48 h-48 bg-white"
-                />
+                  className="rounded-full object-cover shadow-lg w-48 h-48 bg-white"/>
               </div>
               <div className="text-center md:text-left">
                 <h3 className="text-2xl font-bold text-gray-900">Mohammed Sulthan Salahuddin Ayyubee</h3>
