@@ -111,6 +111,16 @@ export default function ContactPage() {
                     </div>
                   </div>
                   
+                  <div className="flex items-center">
+                    <svg className="w-6 h-6 mr-4 text-brand-blue flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-4.5c0-.915-.492-1.75-1.228-2.19a60.080 60.080 0 00-33.5-3.964m0 0C3.9 8.5 2.25 10.6 2.25 13.5m15-7.5h-1.5a6 6 0 00-6 6v12a6 6 0 006 6h1.5m0-67.5h1.5a6 6 0 016 6v12a6 6 0 01-6 6h-1.5" />
+                    </svg>
+                    <div>
+                      <h3 className="text-lg font-semibold text-gray-800">Phone</h3>
+                      <p className="text-gray-600 whitespace-nowrap"><a href="tel:+919901039916" className="hover:text-brand-blue transition-colors">+91 9901039916</a> / <a href="tel:+918660029663" className="hover:text-brand-blue transition-colors">+91 8660029663</a></p>
+                    </div>
+                  </div>
+                  
                   <div className="flex items-start">
                     <svg className="w-6 h-6 mr-4 mt-1 text-brand-blue flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
