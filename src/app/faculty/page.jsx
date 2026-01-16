@@ -126,6 +126,25 @@ export default function FacultyPage() {
                 </p>
               </div>
             </div>
+            
+            <div className="flex flex-col md:flex-row items-center gap-10">
+              <div className="flex-shrink-0">
+                <Image
+                  src="/faculty-mohan.png"
+                  alt="Mr. Mohan Kumar N"
+                  width={200}
+                  height={200}
+                  className="rounded-full object-cover shadow-lg w-48 h-48 bg-white"
+                />
+              </div>
+              <div className="text-center md:text-left">
+                <h3 className="text-2xl font-bold text-gray-900">Mr. Mohan Kumar N</h3>
+                <p className="text-lg font-semibold text-brand-blue mb-3">Senior Physics Faculty</p>
+                <p className="text-gray-700 leading-relaxed">
+                  As an MSc holder in Physics, my expertise lies in connecting Physics with the examples around us. Staying in touch with the technological advancements and finding common topics that are a part of the basics in the syllabus is something that my students have enjoyed in my classes. With over 6 years of experience in teaching Physics and Maths, I'm confident in clearing the concepts of students in a holistic manner and also making topics enjoyable to them.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
