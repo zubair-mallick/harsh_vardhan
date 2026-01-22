@@ -99,13 +99,13 @@ export default function FacultyPage() {
                   className="rounded-full object-cover shadow-lg w-48 h-48 bg-white"
                 />
               </div>
-              /*  <div className="text-center md:text-left">
+               {/*  <div className="text-center md:text-left">
                 <h3 className="text-2xl font-bold text-gray-900">Mohammed Sulthan Salahuddin Ayyubee</h3>
                 <p className="text-lg font-semibold text-brand-blue mb-3">Mathematics & Physics Expert</p>
                 <p className="text-gray-700 leading-relaxed">
                   A passionate tutor with 7 years of experience in teaching and tutoring students of class 9th and 10th for all the boards. His expertise in Mathematics and Physics helps students build strong conceptual foundations.
                 </p>
-              </div> */
+              </div> */}
             </div>
             
             <div className="flex flex-col md:flex-row items-center gap-10">
