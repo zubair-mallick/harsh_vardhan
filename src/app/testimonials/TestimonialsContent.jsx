@@ -220,6 +220,30 @@ export default function TestimonialsContent() {
         </div>
       </section>
 
+      {/* Student Success Gallery */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-6">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">Our Students' Achievements</h2>
+            <p className="text-gray-600">Celebrating success and proud moments</p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-5xl mx-auto">
+            <div className="relative aspect-square rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+              <Image src="/wiing/first.jpeg" alt="Student Achievement" fill className="object-cover" />
+            </div>
+            <div className="relative aspect-square rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+              <Image src="/wiing/second.jpeg" alt="Student Achievement" fill className="object-cover" />
+            </div>
+            <div className="relative aspect-square rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+              <Image src="/wiing/third.jpeg" alt="Student Achievement" fill className="object-cover" />
+            </div>
+            <div className="relative aspect-square rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+              <Image src="/wiing/fourth.jpeg" alt="Student Achievement" fill className="object-cover" />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Divider */}
       <div className="container mx-auto px-6">
         <div className="h-px bg-gray-200"></div>
