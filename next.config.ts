@@ -8,6 +8,14 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'placehold.co',
       },
+      {
+        protocol: 'https',
+        hostname: 'youthexpress.com.au',
+      },
+      {
+        protocol: 'https',
+        hostname: 't4.ftcdn.net',
+      },
     ],
   },
 };

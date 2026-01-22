@@ -1,8 +1,19 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Our Courses - Medhasya Academy',
-  description: 'Structured learning for classes 8-12, focusing on conceptual clarity and board exam success.',
+  title: 'Our Courses',
+  description: 'Explore our structured learning programs for classes 8-12. Foundation courses, Senior Secondary Science & Commerce streams. CBSE, ICSE & State Board coaching in Bengaluru.',
+  keywords: ['courses', 'class 8 tuition', 'class 9 tuition', 'class 10 boards', 'class 11 science', 'class 12 boards', 'JEE coaching', 'NEET coaching', 'commerce stream'],
+  openGraph: {
+    title: 'Our Courses - Medhasya Academy',
+    description: 'Structured learning for classes 8-12. Foundation, Science & Commerce streams with board exam focus.',
+    url: 'https://medhasya.com/courses',
+    images: [{ url: '/logo.png', width: 512, height: 512, alt: 'Medhasya Academy Logo' }],
+  },
+  twitter: {
+    title: 'Our Courses - Medhasya Academy',
+    description: 'Structured learning for classes 8-12 with conceptual clarity and board exam success.',
+  },
 };
 
 export default function CoursesPage() {

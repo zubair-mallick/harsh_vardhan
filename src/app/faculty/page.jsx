@@ -1,8 +1,19 @@
 import Image from 'next/image';
 
 export const metadata = {
-  title: 'Our Faculty - Medhasya Academy',
-  description: 'Meet our experienced and passionate educators dedicated to student success.',
+  title: 'Our Faculty',
+  description: 'Meet our experienced and passionate educators at Medhasya Academy. 8+ mentors with 7+ years average experience, all focused on personalized one-on-one teaching.',
+  keywords: ['faculty', 'teachers', 'mentors', 'experienced educators', 'mathematics teacher', 'physics teacher', 'science teacher'],
+  openGraph: {
+    title: 'Our Faculty - Medhasya Academy',
+    description: 'Meet our team of 8+ experienced educators dedicated to student success.',
+    url: 'https://medhasya.com/faculty',
+    images: [{ url: '/logo.png', width: 512, height: 512, alt: 'Medhasya Academy Logo' }],
+  },
+  twitter: {
+    title: 'Our Faculty - Medhasya Academy',
+    description: 'Meet our experienced and passionate educators dedicated to student success.',
+  },
 };
 
 export default function FacultyPage() {
@@ -89,7 +100,7 @@ export default function FacultyPage() {
               </div>
             </div>
             
-            <div className="flex flex-col md:flex-row items-center gap-10">
+            {/* <div className="flex flex-col md:flex-row items-center gap-10">
               <div className="flex-shrink-0">
                 <Image
                   src="/faculty-salahuddin.png"
@@ -106,7 +117,7 @@ export default function FacultyPage() {
                   A passionate tutor with 7 years of experience in teaching and tutoring students of class 9th and 10th for all the boards. His expertise in Mathematics and Physics helps students build strong conceptual foundations.
                 </p>
               </div>
-            </div>
+            </div> */}
             
             <div className="flex flex-col md:flex-row items-center gap-10">
               <div className="flex-shrink-0">

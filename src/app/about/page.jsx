@@ -1,8 +1,19 @@
 import Image from 'next/image';
 
 export const metadata = {
-  title: 'About Us - Medhasya Academy',
-  description: 'Learn about our story, vision, and the passionate educators behind Medhasya Academy.',
+  title: 'About Us',
+  description: 'Learn about Medhasya Academy\'s story, vision, and the passionate educators with 20+ years of experience. Discover our philosophy of meaningful, interactive, and growth-driven education in Bengaluru.',
+  keywords: ['about medhasya', 'medhasya academy story', 'education philosophy', 'bengaluru tuition', 'experienced educators'],
+  openGraph: {
+    title: 'About Us - Medhasya Academy',
+    description: 'Discover our philosophy of meaningful, interactive, and growth-driven education. 20+ years of educational excellence.',
+    url: 'https://medhasya.com/about',
+    images: [{ url: '/logo.png', width: 512, height: 512, alt: 'Medhasya Academy Logo' }],
+  },
+  twitter: {
+    title: 'About Us - Medhasya Academy',
+    description: 'Discover our philosophy of meaningful, interactive, and growth-driven education.',
+  },
 };
 
 export default function AboutPage() {

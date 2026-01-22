@@ -1,8 +1,19 @@
 import Image from 'next/image';
 
 export const metadata = {
-  title: 'Gallery - Medhasya Academy',
-  description: 'A glimpse into our learning environment, student interactions, and proud moments.',
+  title: 'Gallery',
+  description: 'A glimpse into Medhasya Academy\'s learning environment, student interactions, classroom sessions, and proud moments. See our coaching center in Ramamurthy Nagar, Bengaluru.',
+  keywords: ['gallery', 'medhasya photos', 'classroom', 'student activities', 'coaching center bengaluru'],
+  openGraph: {
+    title: 'Gallery - Medhasya Academy',
+    description: 'Explore our learning environment, student interactions, and proud moments.',
+    url: 'https://medhasya.com/gallery',
+    images: [{ url: '/logo.png', width: 512, height: 512, alt: 'Medhasya Academy Logo' }],
+  },
+  twitter: {
+    title: 'Gallery - Medhasya Academy',
+    description: 'A glimpse into our learning environment and student interactions.',
+  },
 };
 
 export default function GalleryPage() {
@@ -23,7 +34,7 @@ export default function GalleryPage() {
             
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
               <Image
-                src="https://placehold.co/600x400/eeeeee/333333?text=Classroom"
+                src="https://t4.ftcdn.net/jpg/02/96/69/41/360_F_296694103_sXwljVpU8mpCOpREQCNUbHPI0hY73fcl.jpg"
                 alt="Modern Classroom"
                 width={600}
                 height={400}
@@ -36,7 +47,7 @@ export default function GalleryPage() {
             
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
               <Image
-                src="https://placehold.co/600x400/3B82F6/FFFFFF?text=Mentoring"
+                src="https://t4.ftcdn.net/jpg/02/96/69/41/360_F_296694103_sXwljVpU8mpCOpREQCNUbHPI0hY73fcl.jpg"
                 alt="One-to-one mentoring"
                 width={600}
                 height={400}
@@ -49,7 +60,7 @@ export default function GalleryPage() {
             
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
               <Image
-                src="https://placehold.co/600x400/eeeeee/333333?text=Students"
+                src="https://t4.ftcdn.net/jpg/02/96/69/41/360_F_296694103_sXwljVpU8mpCOpREQCNUbHPI0hY73fcl.jpg"
                 alt="Happy Students"
                 width={600}
                 height={400}
@@ -62,7 +73,7 @@ export default function GalleryPage() {
             
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
               <Image
-                src="https://placehold.co/600x400/eeeeee/333333?text=Award"
+                src="https://t4.ftcdn.net/jpg/02/96/69/41/360_F_296694103_sXwljVpU8mpCOpREQCNUbHPI0hY73fcl.jpg"
                 alt="Student Award"
                 width={600}
                 height={400}
@@ -75,7 +86,7 @@ export default function GalleryPage() {
             
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
               <Image
-                src="https://placehold.co/600x400/3B82F6/FFFFFF?text=Seminar"
+                src="https://t4.ftcdn.net/jpg/02/96/69/41/360_F_296694103_sXwljVpU8mpCOpREQCNUbHPI0hY73fcl.jpg"
                 alt="Seminar"
                 width={600}
                 height={400}
@@ -88,7 +99,7 @@ export default function GalleryPage() {
             
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
               <Image
-                src="https://placehold.co/600x400/eeeeee/333333?text=Library"
+                src="https://t4.ftcdn.net/jpg/02/96/69/41/360_F_296694103_sXwljVpU8mpCOpREQCNUbHPI0hY73fcl.jpg"
                 alt="Library"
                 width={600}
                 height={400}

@@ -1,6 +1,17 @@
 export const metadata = {
-  title: 'Contact Us - Medhasya Academy',
-  description: 'Get in touch with us for admissions or inquiries.',
+  title: 'Contact Us',
+  description: 'Get in touch with Medhasya Academy for admissions or inquiries. Located at Ramamurthy Nagar, Bengaluru. Call +91 9901039916 or +91 8660029663. Office hours: Mon-Sat, 10 AM - 8 PM.',
+  keywords: ['contact', 'admission enquiry', 'phone number', 'medhasya location', 'ramamurthy nagar tuition'],
+  openGraph: {
+    title: 'Contact Us - Medhasya Academy',
+    description: 'Get in touch for admissions or inquiries. Located in Ramamurthy Nagar, Bengaluru.',
+    url: 'https://medhasya.com/contact',
+    images: [{ url: '/logo.png', width: 512, height: 512, alt: 'Medhasya Academy Logo' }],
+  },
+  twitter: {
+    title: 'Contact Us - Medhasya Academy',
+    description: 'Get in touch with us for admissions or inquiries.',
+  },
 };
 
 export default function ContactPage() {

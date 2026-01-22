@@ -8,31 +8,31 @@ const testimonials = [
     text: "The one-to-one mentoring at Medhasya helped me finally understand difficult math concepts. My confidence and my grades have improved so much.",
     name: "Aarav Patel",
     class: "Class 10",
-    avatar: "https://placehold.co/60x60/eeeeee/333333?text=A"
+    avatar: "https://youthexpress.com.au/wp-content/uploads/2023/08/male-placeholder.png"
   },
   {
     text: "Mrs. Seetha and the faculty are incredibly supportive. They don't just teach the subject; they teach you *how* to learn and be curious.",
     name: "Priya Sharma",
     class: "Class 12",
-    avatar: "https://placehold.co/60x60/eeeeee/333333?text=P"
+    avatar: "https://youthexpress.com.au/wp-content/uploads/2023/08/male-placeholder.png"
   },
   {
     text: "The concepts in 11th grade Physics were so tough, but my mentor here broke them down. I finally feel prepared for competitive exams.",
     name: "Rohan Gupta",
     class: "Class 11 (Science)",
-    avatar: "https://placehold.co/60x60/eeeeee/333333?text=R"
+    avatar: "https://youthexpress.com.au/wp-content/uploads/2023/08/male-placeholder.png"
   },
   {
     text: "I used to be scared of asking questions in class. Here, my mentors encourage it. It's a completely different and better way of learning.",
     name: "Sameera Rao",
     class: "Class 9",
-    avatar: "https://placehold.co/60x60/eeeeee/333333?text=S"
+    avatar: "https://youthexpress.com.au/wp-content/uploads/2023/08/male-placeholder.png"
   },
   {
     text: "The Accountancy classes for my 12th boards were fantastic. I scored 96 marks, all thanks to the detailed way they teach here.",
     name: "Vikram Iyer",
     class: "Class 12 (Commerce)",
-    avatar: "https://placehold.co/60x60/eeeeee/333333?text=V"
+    avatar: "https://youthexpress.com.au/wp-content/uploads/2023/08/male-placeholder.png"
   }
 ];
 

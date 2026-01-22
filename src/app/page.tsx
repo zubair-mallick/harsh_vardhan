@@ -3,7 +3,6 @@ import AboutBrief from '@/components/home/AboutBrief';
 import WhyChooseUs from '@/components/home/WhyChooseUs';
 import FounderNote from '@/components/home/FounderNote';
 import TestimonialsSection from '@/components/home/TestimonialsSection';
-import VideoTestimonials from '@/components/home/VideoTestimonials';
 
 export default function Home() {
   return (
@@ -13,7 +12,7 @@ export default function Home() {
       <WhyChooseUs />
       <FounderNote />
       <TestimonialsSection />
-      <VideoTestimonials />
     </main>
   );
 }
+
