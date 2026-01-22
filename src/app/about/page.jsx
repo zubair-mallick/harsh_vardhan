@@ -1,18 +1,30 @@
 import Image from 'next/image';
 
 export const metadata = {
-  title: 'About Us',
-  description: 'Learn about Medhasya Academy\'s story, vision, and the passionate educators with 20+ years of experience. Discover our philosophy of meaningful, interactive, and growth-driven education in Bengaluru.',
-  keywords: ['about medhasya', 'medhasya academy story', 'education philosophy', 'bengaluru tuition', 'experienced educators'],
+  title: 'About Us - Our Story, Vision & Educational Philosophy',
+  description: 'Learn about Medhasya Academy\'s story, vision, and the passionate educators with 20+ years of experience. Discover our philosophy of meaningful, interactive, and growth-driven education in Ramamurthy Nagar, Bengaluru.',
+  keywords: ['about medhasya', 'medhasya academy story', 'education philosophy', 'bengaluru tuition', 'experienced educators', 'ramamurthy nagar coaching', 'personalized learning', 'student success stories'],
+  alternates: {
+    canonical: 'https://medhasya.com/about',
+  },
   openGraph: {
+    type: 'website',
+    locale: 'en_IN',
     title: 'About Us - Medhasya Academy',
-    description: 'Discover our philosophy of meaningful, interactive, and growth-driven education. 20+ years of educational excellence.',
+    description: 'Discover our philosophy of meaningful, interactive, and growth-driven education. 20+ years of educational excellence in Bengaluru.',
     url: 'https://medhasya.com/about',
-    images: [{ url: '/logo.png', width: 512, height: 512, alt: 'Medhasya Academy Logo' }],
+    siteName: 'Medhasya Academy',
+    images: [{ url: 'https://medhasya.com/logo.png', width: 512, height: 512, alt: 'Medhasya Academy Logo' }],
   },
   twitter: {
+    card: 'summary_large_image',
     title: 'About Us - Medhasya Academy',
-    description: 'Discover our philosophy of meaningful, interactive, and growth-driven education.',
+    description: 'Discover our philosophy of meaningful, interactive, and growth-driven education. 20+ years of excellence.',
+    images: ['https://medhasya.com/logo.png'],
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 

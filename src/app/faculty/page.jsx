@@ -1,18 +1,30 @@
 import Image from 'next/image';
 
 export const metadata = {
-  title: 'Our Faculty',
-  description: 'Meet our experienced and passionate educators at Medhasya Academy. 8+ mentors with 7+ years average experience, all focused on personalized one-on-one teaching.',
-  keywords: ['faculty', 'teachers', 'mentors', 'experienced educators', 'mathematics teacher', 'physics teacher', 'science teacher'],
+  title: 'Our Faculty - Experienced Teachers & Mentors',
+  description: 'Meet our experienced and passionate educators at Medhasya Academy. 8+ mentors with 7+ years average experience, 90% with Master\'s degrees, all focused on personalized one-on-one teaching in Mathematics, Science & Commerce.',
+  keywords: ['faculty', 'teachers', 'mentors', 'experienced educators', 'mathematics teacher', 'physics teacher', 'science teacher', 'chemistry teacher', 'biology teacher', 'accountancy teacher', 'economics teacher', 'qualified teachers', 'bengaluru teachers', 'ramamurthy nagar tutors'],
+  alternates: {
+    canonical: 'https://medhasya.com/faculty',
+  },
   openGraph: {
+    type: 'website',
+    locale: 'en_IN',
     title: 'Our Faculty - Medhasya Academy',
-    description: 'Meet our team of 8+ experienced educators dedicated to student success.',
+    description: 'Meet our team of 8+ experienced educators with 7+ years average experience, dedicated to student success through personalized teaching.',
     url: 'https://medhasya.com/faculty',
-    images: [{ url: '/logo.png', width: 512, height: 512, alt: 'Medhasya Academy Logo' }],
+    siteName: 'Medhasya Academy',
+    images: [{ url: 'https://medhasya.com/logo.png', width: 512, height: 512, alt: 'Medhasya Academy Logo' }],
   },
   twitter: {
+    card: 'summary_large_image',
     title: 'Our Faculty - Medhasya Academy',
     description: 'Meet our experienced and passionate educators dedicated to student success.',
+    images: ['https://medhasya.com/logo.png'],
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 

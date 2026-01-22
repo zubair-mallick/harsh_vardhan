@@ -1,18 +1,30 @@
 import Image from 'next/image';
 
 export const metadata = {
-  title: 'Gallery',
-  description: 'A glimpse into Medhasya Academy\'s learning environment, student interactions, classroom sessions, and proud moments. See our coaching center in Ramamurthy Nagar, Bengaluru.',
-  keywords: ['gallery', 'medhasya photos', 'classroom', 'student activities', 'coaching center bengaluru'],
+  title: 'Gallery - Photos & Campus Tour',
+  description: 'A glimpse into Medhasya Academy\'s learning environment, student interactions, classroom sessions, and proud moments. Explore our modern coaching center in Ramamurthy Nagar, Bengaluru with interactive classrooms and dedicated mentoring spaces.',
+  keywords: ['gallery', 'medhasya photos', 'classroom', 'student activities', 'coaching center bengaluru', 'campus tour', 'learning environment', 'ramamurthy nagar coaching center', 'tuition center photos'],
+  alternates: {
+    canonical: 'https://medhasya.com/gallery',
+  },
   openGraph: {
+    type: 'website',
+    locale: 'en_IN',
     title: 'Gallery - Medhasya Academy',
-    description: 'Explore our learning environment, student interactions, and proud moments.',
+    description: 'Explore our learning environment, student interactions, classroom sessions, and proud moments at our Ramamurthy Nagar coaching center.',
     url: 'https://medhasya.com/gallery',
-    images: [{ url: '/logo.png', width: 512, height: 512, alt: 'Medhasya Academy Logo' }],
+    siteName: 'Medhasya Academy',
+    images: [{ url: 'https://medhasya.com/logo.png', width: 512, height: 512, alt: 'Medhasya Academy Logo' }],
   },
   twitter: {
+    card: 'summary_large_image',
     title: 'Gallery - Medhasya Academy',
     description: 'A glimpse into our learning environment and student interactions.',
+    images: ['https://medhasya.com/logo.png'],
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 

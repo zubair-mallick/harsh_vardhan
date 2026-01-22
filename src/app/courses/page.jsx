@@ -1,18 +1,30 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Our Courses',
-  description: 'Explore our structured learning programs for classes 8-12. Foundation courses, Senior Secondary Science & Commerce streams. CBSE, ICSE & State Board coaching in Bengaluru.',
-  keywords: ['courses', 'class 8 tuition', 'class 9 tuition', 'class 10 boards', 'class 11 science', 'class 12 boards', 'JEE coaching', 'NEET coaching', 'commerce stream'],
+  title: 'Courses for Classes 8-12 | CBSE, ICSE & State Board',
+  description: 'Explore structured learning programs for classes 8-12 at Medhasya Academy. Foundation courses, JEE/NEET preparation, Science & Commerce streams. Expert CBSE, ICSE & State Board coaching in Ramamurthy Nagar, Bengaluru.',
+  keywords: ['courses', 'class 8 tuition', 'class 9 tuition', 'class 10 boards', 'class 11 science', 'class 12 boards', 'JEE coaching', 'NEET coaching', 'commerce stream', 'cbse coaching', 'icse tuition', 'state board', 'mathematics tuition', 'physics coaching', 'chemistry tuition', 'accountancy classes', 'board exam preparation'],
+  alternates: {
+    canonical: 'https://medhasya.com/courses',
+  },
   openGraph: {
+    type: 'website',
+    locale: 'en_IN',
     title: 'Our Courses - Medhasya Academy',
-    description: 'Structured learning for classes 8-12. Foundation, Science & Commerce streams with board exam focus.',
+    description: 'Structured learning for classes 8-12. Foundation, Science & Commerce streams with board exam focus. CBSE, ICSE & State Board coaching.',
     url: 'https://medhasya.com/courses',
-    images: [{ url: '/logo.png', width: 512, height: 512, alt: 'Medhasya Academy Logo' }],
+    siteName: 'Medhasya Academy',
+    images: [{ url: 'https://medhasya.com/logo.png', width: 512, height: 512, alt: 'Medhasya Academy Logo' }],
   },
   twitter: {
+    card: 'summary_large_image',
     title: 'Our Courses - Medhasya Academy',
     description: 'Structured learning for classes 8-12 with conceptual clarity and board exam success.',
+    images: ['https://medhasya.com/logo.png'],
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 

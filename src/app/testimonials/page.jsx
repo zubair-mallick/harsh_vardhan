@@ -1,17 +1,20 @@
 import TestimonialsContent from './TestimonialsContent';
 
 export const metadata = {
-  title: 'Student Testimonials - Medhasya Academy',
-  description: 'Hear from our students and parents about their experiences at Medhasya Academy. Watch video testimonials and read success stories from students across Bengaluru.',
-  keywords: ['testimonials', 'student reviews', 'medhasya academy reviews', 'tuition reviews bengaluru', 'coaching feedback'],
+  title: 'Student Testimonials - Success Stories & Reviews',
+  description: 'Hear from our students about their experiences at Medhasya Academy. Watch video testimonials and read success stories from classes 8-12 students across Bengaluru. Real feedback on personalized mentoring, board exam preparation, and academic improvement.',
+  keywords: ['testimonials', 'student reviews', 'medhasya academy reviews', 'tuition reviews bengaluru', 'coaching feedback', 'student success stories', 'parent reviews', 'video testimonials', 'cbse results', 'board exam success', 'ramamurthy nagar reviews'],
+  alternates: {
+    canonical: 'https://medhasya.com/testimonials',
+  },
   openGraph: {
     title: 'Student Testimonials - Medhasya Academy',
-    description: 'Hear from our students and parents about their transformative learning experiences at Medhasya Academy.',
+    description: 'Hear from our students about their success stories, learning experiences, and academic achievements at Medhasya Academy.',
     url: 'https://medhasya.com/testimonials',
     siteName: 'Medhasya Academy',
     images: [
       {
-        url: '/logo.png',
+        url: 'https://medhasya.com/logo.png',
         width: 512,
         height: 512,
         alt: 'Medhasya Academy Logo',
@@ -21,10 +24,14 @@ export const metadata = {
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: 'Student Testimonials - Medhasya Academy',
-    description: 'Hear from our students and parents about their transformative learning experiences.',
-    images: ['/logo.png'],
+    description: 'Success stories and experiences from our students.',
+    images: ['https://medhasya.com/logo.png'],
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
