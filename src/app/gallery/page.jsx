@@ -44,81 +44,158 @@ export default function GalleryPage() {
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             
+            {/* Teacher/Mentor - Most Important */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
               <Image
-                src="https://t4.ftcdn.net/jpg/02/96/69/41/360_F_296694103_sXwljVpU8mpCOpREQCNUbHPI0hY73fcl.jpg"
-                alt="Modern Classroom"
+                src="/Gallery/person.jpeg"
+                alt="Our Dedicated Mentor"
                 width={600}
                 height={400}
                 className="w-full h-64 object-cover"
+                style={{ objectPosition: 'center 15%' }}
+              />
+              <div className="p-4">
+                <p className="text-gray-600">Dedicated mentors guiding students to success.</p>
+              </div>
+            </div>
+            
+            {/* Academy Front - First Impression */}
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
+              <Image
+                src="/Gallery/front.jpg.jpeg"
+                alt="Academy Front View"
+                width={600}
+                height={400}
+                className="w-full h-64 object-contain bg-gray-50"
+              />
+              <div className="p-4">
+                <p className="text-gray-600">Welcome to Medhasya Academy.</p>
+              </div>
+            </div>
+            
+            {/* Reception - Welcoming Area */}
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
+              <Image
+                src="/Gallery/reception.jpg.jpeg"
+                alt="Reception Area"
+                width={600}
+                height={400}
+                className="w-full h-64 object-cover object-center"
+              />
+              <div className="p-4">
+                <p className="text-gray-600">Our welcoming reception area.</p>
+              </div>
+            </div>
+            
+            {/* Classroom - Core Learning Space */}
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
+              <Image
+                src="/Gallery/room.jpg.jpeg"
+                alt="Classroom"
+                width={600}
+                height={400}
+                className="w-full h-64 object-cover object-center"
               />
               <div className="p-4">
                 <p className="text-gray-600">Our interactive classroom setup.</p>
               </div>
             </div>
             
+            {/* Teaching Board - Learning in Action */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
               <Image
-                src="https://t4.ftcdn.net/jpg/02/96/69/41/360_F_296694103_sXwljVpU8mpCOpREQCNUbHPI0hY73fcl.jpg"
-                alt="One-to-one mentoring"
+                src="/Gallery/board2.jpeg"
+                alt="Teaching Board"
                 width={600}
                 height={400}
-                className="w-full h-64 object-cover"
+                className="w-full h-64 object-cover object-center"
               />
               <div className="p-4">
-                <p className="text-gray-600">Personalized mentoring session.</p>
+                <p className="text-gray-600">Interactive learning sessions.</p>
               </div>
             </div>
             
+            {/* Study Desks */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
               <Image
-                src="https://t4.ftcdn.net/jpg/02/96/69/41/360_F_296694103_sXwljVpU8mpCOpREQCNUbHPI0hY73fcl.jpg"
-                alt="Happy Students"
+                src="/Gallery/desk2.jpeg"
+                alt="Student Desk Area"
                 width={600}
                 height={400}
-                className="w-full h-64 object-cover"
+                className="w-full h-64 object-cover object-center"
               />
               <div className="p-4">
-                <p className="text-gray-600">Students engaged in a group discussion.</p>
+                <p className="text-gray-600">Comfortable study desks for focused learning.</p>
               </div>
             </div>
             
+            {/* Study Area */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
               <Image
-                src="https://t4.ftcdn.net/jpg/02/96/69/41/360_F_296694103_sXwljVpU8mpCOpREQCNUbHPI0hY73fcl.jpg"
-                alt="Student Award"
+                src="/Gallery/desk2.jpg.jpeg"
+                alt="Study Area"
                 width={600}
                 height={400}
-                className="w-full h-64 object-cover"
+                className="w-full h-64 object-cover object-center"
               />
               <div className="p-4">
-                <p className="text-gray-600">Celebrating our top performers.</p>
+                <p className="text-gray-600">Dedicated study spaces.</p>
               </div>
             </div>
             
+            {/* Learning Space */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
               <Image
-                src="https://t4.ftcdn.net/jpg/02/96/69/41/360_F_296694103_sXwljVpU8mpCOpREQCNUbHPI0hY73fcl.jpg"
-                alt="Seminar"
+                src="/Gallery/desk3.jpg.jpeg"
+                alt="Learning Space"
                 width={600}
                 height={400}
-                className="w-full h-64 object-cover"
+                className="w-full h-64 object-cover object-center"
               />
               <div className="p-4">
-                <p className="text-gray-600">Special guest lecture on exam strategies.</p>
+                <p className="text-gray-600">Modern learning environment.</p>
               </div>
             </div>
             
+            {/* Hallway */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
               <Image
-                src="https://t4.ftcdn.net/jpg/02/96/69/41/360_F_296694103_sXwljVpU8mpCOpREQCNUbHPI0hY73fcl.jpg"
-                alt="Library"
+                src="/Gallery/hallway.jpg.jpeg"
+                alt="Academy Hallway"
                 width={600}
                 height={400}
-                className="w-full h-64 object-cover"
+                className="w-full h-64 object-cover object-center"
               />
               <div className="p-4">
-                <p className="text-gray-600">Our quiet study and resource area.</p>
+                <p className="text-gray-600">Spacious corridors of our academy.</p>
+              </div>
+            </div>
+            
+            {/* Interior */}
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
+              <Image
+                src="/Gallery/halway2.jpg.jpeg"
+                alt="Academy Interior"
+                width={600}
+                height={400}
+                className="w-full h-64 object-cover object-center"
+              />
+              <div className="p-4">
+                <p className="text-gray-600">Clean and inspiring environment.</p>
+              </div>
+            </div>
+            
+            {/* Decor */}
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
+              <Image
+                src="/Gallery/Decor.jpg.jpeg"
+                alt="Academy Decor"
+                width={600}
+                height={400}
+                className="w-full h-64 object-contain bg-gray-50"
+              />
+              <div className="p-4">
+                <p className="text-gray-600">Thoughtfully designed spaces.</p>
               </div>
             </div>
             
