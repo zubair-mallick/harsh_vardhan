@@ -2,8 +2,8 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'Courses for Classes 8-12 | CBSE, ICSE & State Board',
-  description: 'Explore structured learning programs for classes 8-12 at Medhasya Academy. Foundation courses, JEE/NEET preparation, Science & Commerce streams. Expert CBSE, ICSE & State Board coaching in Ramamurthy Nagar, Bengaluru.',
-  keywords: ['courses', 'class 8 tuition', 'class 9 tuition', 'class 10 boards', 'class 11 science', 'class 12 boards', 'JEE coaching', 'NEET coaching', 'commerce stream', 'cbse coaching', 'icse tuition', 'state board', 'mathematics tuition', 'physics coaching', 'chemistry tuition', 'accountancy classes', 'board exam preparation'],
+  description: 'Explore structured learning programs for classes 8-12 at Medhasya Academy. Foundation courses, KCET preparation, Science & Commerce streams. Expert CBSE, ICSE & State Board coaching in Ramamurthy Nagar, Bengaluru.',
+  keywords: ['courses', 'class 8 tuition', 'class 9 tuition', 'class 10 boards', 'class 11 science', 'class 12 boards', 'KCET coaching', 'commerce stream', 'cbse coaching', 'icse tuition', 'state board', 'mathematics tuition', 'physics coaching', 'chemistry tuition', 'accountancy classes', 'board exam preparation', 'career counselling'],
   alternates: {
     canonical: 'https://medhasya.com/courses',
   },
@@ -167,7 +167,7 @@ export default function CoursesPage() {
                     <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">1st PU (State Board)</span>
                   </div>
                   <p className="text-gray-600 leading-relaxed mb-4">
-                    In-depth coaching for Physics, Chemistry, Math & Biology (PCM/PCB) for Class 11 board performance and JEE/NEET foundation.
+                    In-depth coaching for Physics, Chemistry, Math & Biology (PCM/PCB) for Class 11 board performance and KCET foundation.
                   </p>
                   <div className="space-y-2 mb-4">
                     <p className="text-sm font-semibold text-gray-700">Key Subjects:</p>
@@ -181,7 +181,7 @@ export default function CoursesPage() {
                   <ul className="space-y-2 text-sm text-gray-600">
                     <li className="flex items-start">
                       <span className="text-blue-600 mr-2">✓</span>
-                      <span>JEE/NEET foundation building</span>
+                      <span>KCET foundation building</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-blue-600 mr-2">✓</span>
@@ -225,7 +225,7 @@ export default function CoursesPage() {
                   <ul className="space-y-2 text-sm text-gray-600">
                     <li className="flex items-start">
                       <span className="text-blue-600 mr-2">✓</span>
-                      <span>JEE/NEET advanced preparation</span>
+                      <span>KCET advanced preparation</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-blue-600 mr-2">✓</span>
@@ -310,13 +310,60 @@ export default function CoursesPage() {
         </div>
       </section>
 
+      {/* Career Counselling Section */}
+      <section className="py-20 md:py-28 bg-gray-50">
+        <div className="container mx-auto px-6 max-w-6xl">
+          <h2 className="text-3xl font-bold text-center mb-4 text-brand-dark">Career Counselling</h2>
+          <p className="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-16">
+            Expert guidance to help students discover their passion and choose the right career path.
+          </p>
+          <div className="bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden max-w-3xl mx-auto hover:shadow-2xl transition-all duration-300">
+            <div className="bg-gradient-to-r from-blue-500 to-indigo-600 p-6 text-center">
+              <div className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center mx-auto mb-3">
+                <svg className="w-8 h-8 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold text-white">Professional Career Guidance</h3>
+            </div>
+            <div className="p-6">
+              <p className="text-gray-600 leading-relaxed mb-6">
+                Our career counselling program helps students make informed decisions about their future. We provide personalized guidance based on aptitude, interests, and market opportunities.
+              </p>
+              <ul className="space-y-3 text-sm text-gray-600">
+                <li className="flex items-start">
+                  <span className="text-blue-600 mr-2">✓</span>
+                  <span>Aptitude assessment & analysis</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-600 mr-2">✓</span>
+                  <span>Stream selection guidance (Science/Commerce/Arts)</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-600 mr-2">✓</span>
+                  <span>College & course recommendations</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-600 mr-2">✓</span>
+                  <span>Career path exploration & planning</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-600 mr-2">✓</span>
+                  <span>One-on-one counselling sessions</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Admissions Section */}
       <section className="pb-20 md:pb-28">
         <div className="container mx-auto px-6 max-w-4xl">
           <div className="bg-brand-gold text-brand-dark py-12 px-6 rounded-lg text-center shadow-lg">
-            <h2 className="text-3xl font-bold mb-4">Admissions Open Soon!</h2>
+            <h2 className="text-3xl font-bold mb-4">Admissions Open!</h2>
             <p className="text-xl max-w-2xl mx-auto mb-6">
-              Admissions for the <strong>2026-27 academic year</strong> begin in <strong>January 2026</strong>.
+              Admissions for the <strong>2026-27 academic year</strong> are now open. Enroll today!
             </p>
             <Link href="/contact" className="bg-brand-dark text-white px-8 py-3 rounded-lg font-semibold text-lg hover:bg-gray-800 transition-colors inline-block">
               Enquire Now

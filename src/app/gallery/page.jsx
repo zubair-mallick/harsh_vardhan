@@ -52,24 +52,24 @@ export default function GalleryPage() {
                 width={600}
                 height={400}
                 className="w-full h-64 object-cover"
-                style={{ objectPosition: 'center 15%' }}
+                style={{ objectPosition: 'center 25%' }}
               />
               <div className="p-4">
                 <p className="text-gray-600">Dedicated mentors guiding students to success.</p>
               </div>
             </div>
             
-            {/* Academy Front - First Impression */}
+            {/* Study Area */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
               <Image
-                src="/Gallery/front.jpg.jpeg"
-                alt="Academy Front View"
+                src="/Gallery/desk2.jpg.jpeg"
+                alt="Study Area"
                 width={600}
                 height={400}
-                className="w-full h-64 object-contain bg-gray-50"
+                className="w-full h-64 object-cover object-center"
               />
               <div className="p-4">
-                <p className="text-gray-600">Welcome to Medhasya Academy.</p>
+                <p className="text-gray-600">Dedicated study spaces.</p>
               </div>
             </div>
             
@@ -101,20 +101,6 @@ export default function GalleryPage() {
               </div>
             </div>
             
-            {/* Teaching Board - Learning in Action */}
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
-              <Image
-                src="/Gallery/board2.jpeg"
-                alt="Teaching Board"
-                width={600}
-                height={400}
-                className="w-full h-64 object-cover object-center"
-              />
-              <div className="p-4">
-                <p className="text-gray-600">Interactive learning sessions.</p>
-              </div>
-            </div>
-            
             {/* Study Desks */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
               <Image
@@ -126,20 +112,6 @@ export default function GalleryPage() {
               />
               <div className="p-4">
                 <p className="text-gray-600">Comfortable study desks for focused learning.</p>
-              </div>
-            </div>
-            
-            {/* Study Area */}
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
-              <Image
-                src="/Gallery/desk2.jpg.jpeg"
-                alt="Study Area"
-                width={600}
-                height={400}
-                className="w-full h-64 object-cover object-center"
-              />
-              <div className="p-4">
-                <p className="text-gray-600">Dedicated study spaces.</p>
               </div>
             </div>
             
@@ -185,6 +157,20 @@ export default function GalleryPage() {
               </div>
             </div>
             
+            {/* Academy Front */}
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
+              <Image
+                src="/Gallery/front.jpg.jpeg"
+                alt="Academy Front View"
+                width={600}
+                height={400}
+                className="w-full h-64 object-contain bg-gray-50"
+              />
+              <div className="p-4">
+                <p className="text-gray-600">Welcome to Medhasya Academy.</p>
+              </div>
+            </div>
+            
             {/* Decor */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
               <Image
@@ -196,6 +182,20 @@ export default function GalleryPage() {
               />
               <div className="p-4">
                 <p className="text-gray-600">Thoughtfully designed spaces.</p>
+              </div>
+            </div>
+            
+            {/* Teaching Board */}
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
+              <Image
+                src="/Gallery/board2.jpeg"
+                alt="Teaching Board"
+                width={600}
+                height={400}
+                className="w-full h-64 object-cover object-center"
+              />
+              <div className="p-4">
+                <p className="text-gray-600">Interactive learning sessions.</p>
               </div>
             </div>
             
