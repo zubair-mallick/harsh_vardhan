@@ -64,6 +64,7 @@ export default function CoursesPage() {
                   <div className="flex flex-wrap gap-2 mb-4">
                     <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">CBSE</span>
                     <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">ICSE</span>
+                    <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">State Board</span>
                   </div>
                   <p className="text-gray-600 leading-relaxed mb-4">
                     Fostering curiosity and confidence in core subjects like Math and Science from day one.
@@ -94,6 +95,7 @@ export default function CoursesPage() {
                   <div className="flex flex-wrap gap-2 mb-4">
                     <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">CBSE</span>
                     <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">ICSE</span>
+                    <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">State Board</span>
                   </div>
                   <p className="text-gray-600 leading-relaxed mb-4">
                     Deepening conceptual understanding in all subjects to prepare for board-level challenges.
