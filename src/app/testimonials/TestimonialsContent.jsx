@@ -6,7 +6,7 @@ import Image from 'next/image';
 const videoTestimonials = [
   {
     src: '/testimonial/testimonial_basindra.mp4',
-    name: 'Basindra',
+    name: 'Vasundhara',
     description: 'Success Story',
   },
   {
@@ -26,7 +26,7 @@ const videoTestimonials = [
   },
   {
     src: '/testimonial/testimonail 5.mp4',
-    name: 'Vashika',
+    name: 'Aashika',
     description: 'True Understanding',
   },
 ];

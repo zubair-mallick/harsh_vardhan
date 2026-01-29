@@ -7,7 +7,7 @@ export default function HeroSection() {
       {/* Hero Section */}
       <section className="bg-blue-900 text-white relative overflow-hidden">
         <div className="container mx-auto px-6 py-16 md:py-24 z-10 relative">
-          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+          <div className="flex flex-col md:flex-row items-center gap-4 md:gap-12">
             {/* Left - Logo */}
             <div className="flex-shrink-0">
               <Image
@@ -15,7 +15,8 @@ export default function HeroSection() {
                 alt="Medhasya Academy Logo"
                 width={400}
                 height={400}
-                className="w-48 h-48 md:w-72 md:h-72 object-contain"
+                priority
+                className="w-80 h-80 md:w-96 md:h-96 object-contain"
               />
             </div>
             
