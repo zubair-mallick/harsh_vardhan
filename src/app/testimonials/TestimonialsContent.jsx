@@ -220,7 +220,7 @@ export default function TestimonialsContent() {
         </div>
       </section>
 
-      {/* Student Success Gallery */}
+      {/* Student Success Gallery - Commented out for now
       <section className="py-12 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-8">
@@ -243,6 +243,7 @@ export default function TestimonialsContent() {
           </div>
         </div>
       </section>
+      */}
 
       {/* Divider */}
       <div className="container mx-auto px-6">
