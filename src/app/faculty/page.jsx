@@ -168,6 +168,44 @@ export default function FacultyPage() {
                 </p>
               </div>
             </div>
+
+            <div className="flex flex-col md:flex-row items-center gap-10">
+              <div className="flex-shrink-0">
+                <Image
+                  src="/faculty-maris bharti.jpeg"
+                  alt="Mrs Mary Bharati"
+                  width={200}
+                  height={200}
+                  className="rounded-full object-cover shadow-lg w-48 h-48 bg-white"
+                />
+              </div>
+              <div className="text-center md:text-left">
+                <h3 className="text-2xl font-bold text-gray-900">Mrs Mary Bharati</h3>
+                <p className="text-lg font-semibold text-brand-blue mb-3">English & Social Studies Expert</p>
+                <p className="text-gray-700 leading-relaxed">
+                  An English and Social expert for State Board students with a vast experience of over 10 years. Specialized in Early Childhood Care Education recognized by NIOS and applies the methodology of example based teaching in languages and Social studies. With an experience of training students for 10th state board, I ensure that the classes are a process of evolution in a students' journey.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex flex-col md:flex-row items-center gap-10">
+              <div className="flex-shrink-0">
+                <Image
+                  src="/faculty-Lakshmanna.jpeg"
+                  alt="Mr. Lakshmanna"
+                  width={200}
+                  height={200}
+                  className="rounded-full object-cover shadow-lg w-48 h-48 bg-white"
+                />
+              </div>
+              <div className="text-center md:text-left">
+                <h3 className="text-2xl font-bold text-gray-900">Mr. Lakshmanna</h3>
+                <p className="text-lg font-semibold text-brand-blue mb-3">Senior Social Studies Faculty</p>
+                <p className="text-gray-700 leading-relaxed">
+                  An experienced Social faculty for over 15 years handling Social studies for students across all Boards. A subject expert incharge of NTSE classes. With shortcuts, map work and tricks to remember the details, I add value to the learning of students. Scoring in board exams is of the highest priority and have ensured 100% results every year among my students.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
