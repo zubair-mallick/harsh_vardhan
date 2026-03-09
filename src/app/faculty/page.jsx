@@ -206,6 +206,28 @@ export default function FacultyPage() {
                 </p>
               </div>
             </div>
+
+            <div className="flex flex-col md:flex-row items-center gap-10">
+              <div className="flex-shrink-0">
+                <Image
+                  src="/faculty-shivaputhrappa.png"
+                  alt="Mr. Shivaputhrappa"
+                  width={200}
+                  height={200}
+                  className="rounded-full object-cover shadow-lg w-48 h-48 bg-white"
+                />
+              </div>
+              <div className="text-center md:text-left">
+                <h3 className="text-2xl font-bold text-gray-900">Mr. Shivaputhrappa</h3>
+                <p className="text-lg font-semibold text-brand-blue mb-3">Senior Kannada Faculty</p>
+                <p className="text-gray-700 leading-relaxed">
+                  As a Kannada faculty for over 15 years, I have gained a wide range of experience in handling diverse students. With my knowledge of fundamentals and also higher knowledge of Kannada literature in my M.A, I ensure the subject utility is beyond the classes and books. I carry the honour of ensuring 100% results from my students in their Boards be it 1st Language, 2nd or 3rd language choice.
+                </p>
+                <p className="text-gray-600 italic mt-3">
+                  ಈ ಕನ್ನಡ ಕಲಿಕೆಯ ಹಾದಿಯಲ್ಲಿ ನಿಮ್ಮ ಜೊತೆಗಿನ ನಿರಂತರ ಸಾರಥಿ.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
