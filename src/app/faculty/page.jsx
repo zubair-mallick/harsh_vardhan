@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export const metadata = {
   title: 'Our Faculty - Experienced Teachers & Mentors',
-  description: 'Meet our experienced and passionate educators at Medhasya Academy. 8+ mentors with 7+ years average experience, 90% with Master\'s degrees, all focused on personalized one-on-one teaching in Mathematics, Science & Commerce.',
+  description: 'Meet our experienced and passionate educators at Medhasya Academy. 10+ mentors with 7+ years average experience, 90% with Master\'s degrees, all focused on personalized one-on-one teaching in Mathematics, Science & Commerce.',
   keywords: ['faculty', 'teachers', 'mentors', 'experienced educators', 'mathematics teacher', 'physics teacher', 'science teacher', 'chemistry teacher', 'biology teacher', 'accountancy teacher', 'economics teacher', 'qualified teachers', 'bengaluru teachers', 'ramamurthy nagar tutors'],
   alternates: {
     canonical: 'https://medhasya.com/faculty',
@@ -11,7 +11,7 @@ export const metadata = {
     type: 'website',
     locale: 'en_IN',
     title: 'Our Faculty - Medhasya Academy',
-    description: 'Meet our team of 8+ experienced educators with 7+ years average experience, dedicated to student success through personalized teaching.',
+    description: 'Meet our team of 10+ experienced educators with 7+ years average experience, dedicated to student success through personalized teaching.',
     url: 'https://medhasya.com/faculty',
     siteName: 'Medhasya Academy',
     images: [{ url: 'https://medhasya.com/logo.png', width: 512, height: 512, alt: 'Medhasya Academy Logo' }],
@@ -45,8 +45,8 @@ export default function FacultyPage() {
           <h2 className="text-3xl md:text-4xl font-bold">Our Faculty by the Numbers</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 overflow-hidden rounded-lg shadow-xl">
-          <div className="bg-brand-blue text-white p-8 text-center">
-            <h3 className="text-5xl font-bold">8+</h3>
+            <div className="bg-brand-blue text-white p-8 text-center">
+            <h3 className="text-5xl font-bold">10+</h3>
             <h4 className="text-xl uppercase font-semibold mt-2">Total <span className="block">Mentors</span></h4>
           </div>
           <div className="bg-brand-dark text-white p-8 text-center">
@@ -146,6 +146,44 @@ export default function FacultyPage() {
                 <p className="text-lg font-semibold text-brand-blue mb-3">Science Faculty</p>
                 <p className="text-gray-700 leading-relaxed">
                   A Computer Science Engineer by qualification and a dedicated multi-subject educator. He has taught Class 8 Mathematics, Science, and Social Science, Class 9 Social Science, and Class 10 Physics. Known for his clear explanations and student-friendly approach, Mr. Jordan focuses on building strong fundamentals and making complex topics simple and understandable.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex flex-col md:flex-row items-center gap-10">
+              <div className="flex-shrink-0">
+                <Image
+                  src="/faculty-Rakesh.jpeg"
+                  alt="Mr. V. Rakesh"
+                  width={200}
+                  height={200}
+                  className="rounded-full object-cover shadow-lg w-48 h-48 bg-white"
+                />
+              </div>
+              <div className="text-center md:text-left">
+                <h3 className="text-2xl font-bold text-gray-900">Mr. V. Rakesh</h3>
+                <p className="text-lg font-semibold text-brand-blue mb-3">Chemistry Faculty</p>
+                <p className="text-gray-700 leading-relaxed">
+                  A Chemistry teacher specialized in handling 11th, 12th and PU board Chemistry. My expertise lies in not just preparing students for Board exams but also in training them for competitive exams like KCET and JEE. With an integrated approach, I ensure that the Board syllabus is taken along with KCET preparation and both aspects are well covered. Building strong fundamentals along with exam oriented approach is my specialization. With over 10 years of experience in teaching Chemistry, I am confident in producing great results from students in not just Board exams but also in other competitive exams.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex flex-col md:flex-row items-center gap-10">
+              <div className="flex-shrink-0">
+                <Image
+                  src="/faculty-Sreedhar.jpeg"
+                  alt="Mr. V. Sreedhar"
+                  width={200}
+                  height={200}
+                  className="rounded-full object-cover shadow-lg w-48 h-48 bg-white"
+                />
+              </div>
+              <div className="text-center md:text-left">
+                <h3 className="text-2xl font-bold text-gray-900">Mr. V. Sreedhar</h3>
+                <p className="text-lg font-semibold text-brand-blue mb-3">Chemistry Faculty</p>
+                <p className="text-gray-700 leading-relaxed">
+                  I have served as a Chemistry faculty across different classes starting from High school to college level with an experience of over 11 years. With my knowledge on Organic chemistry as a major in M.Sc, I make Chemistry not just easy but also interesting for the students. I have also had several years of experience teaching for Olympiads and ICSE students, thus hold a great deal of command in preparing students for competitive exams.
                 </p>
               </div>
             </div>
